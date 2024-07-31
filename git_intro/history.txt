@@ -1,0 +1,16 @@
+    1  history
+    2  ls -alh
+    3  git clone git@github.com:andreyb30283/git_intro.git
+    4  ls -alh
+    5  git init
+    6  cd git_intro
+    7  git init
+    8  ls -alh
+    9  ls -alh
+   10  git add *
+   11  git commit -m "Begrüßung"
+   12  git branch -M main
+   13  git remote add origin git@github.com:andreyb30283/git_intro.git
+   14  git remote add hausaufgabe git@github.com:andreyb30283/git_intro.git
+   15  git push -u hausaufgabe main
+   16  history >>history.txt

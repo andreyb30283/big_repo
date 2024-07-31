@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "hello $USER"
+echo "Current date : $(date)"
+echo "This script was launched from :$(pwd) "
+echo "Count processes by bioset $(ps -ef |grep bioset | grep -v grep | wc -l)"
+echo "File /etc/passwd rights: $(ls -alh /etc/passwd | awk '{print $1}' )" 

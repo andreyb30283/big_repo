@@ -1,0 +1,997 @@
+ tar -czf hw_13.tar.gz -C /opt/150424-wdm/gudkova_anastasiia/ .
+    2  ls
+    3  les hw_13.tar.gz
+    4  less hw_13.tar.gz
+    5  exit
+    6  cd /opt/150424-wdm
+    7  cd Yevhen_Silich/
+    8  mkdir YevgeniySilich/
+    9  cd YevgeniySilich
+   10  touch task_silich.sh
+   11  vi task_silich.sh
+   12  chmod +x task_silich.sh
+   13  ls -la
+   14  ./task_silich.sh
+   15  cat task_silich.sh
+   16  vi task_silich.sh
+   17  ./task_silich.sh
+   18  vi task_silich.sh
+   19  ./task_silich.sh
+   20  ls -al
+   21  vi task_silich.sh
+   22  crontab -e
+   23  ls -al
+   24  cd ..
+   25  cat /opt/150424-wdm/Yevhen_Silich/YevhenSilich/task_silich.sh
+   26  cat /opt/150424-wdm/Yevhen_Silich/YevhenSilich/task_s
+   27  crontab -e
+   28  ./task_silich.sh
+   29  cd /opt/150424-wdm/Yevhen_Silich/YevhenSilich
+   30  cd /150424-wdm/Yevhen_Silich/YevgeniySilich
+   31  cd /150424-wdm
+   32  cd 150424-wdm
+   33  cd Yevhen_Silich/
+   34  cd YevgeniySilich/
+   35  cat task_silich.sh
+   36  cat
+   37  ls -la
+   38  history >
+   39  history | tail -n 50 > history.txt
+   40  ls -la
+   41  cat history.txt
+   42  :wq
+   43  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+   44  crontab -e
+   45  pwd
+   46  ls -l
+   47  cd /opt
+   48  clear
+   49  cd ~
+   50  ssh -i C:\Users\Owner\Documents\Linux\.ssh\id_rsa ec2-user@linux.itcareerhub.de
+   51  cd id_ed25519
+   52  ls
+   53  cd Shulha
+   54  cd 150424-wdm
+   55  cd 150424
+   56  cd /opt/150424-wdm
+   57  ls
+   58  touch task-shulha
+   59  vi task-shulha
+   60  chmod +x task-shulha
+   61  ./task-shulha
+   62  vi task-shulha
+   63  ./task-shulha
+   64  vi task-shulha
+   65  ./task-shulha
+   66  ls
+   67  ls -al
+   68  crontab -e
+   69  cat Shulha
+   70  ls Shulha
+   71  ls -la
+   72  history
+   73  history | tail -n 40 > history.txt
+   74  ls
+   75  cat history.txt
+   76  vi history.txt
+   77  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+   78  pwd
+   79  ls -l
+   80  mkdir Christina
+   81  cd Christina
+   82  touch task_Christina.sh
+   83  #!/bin/bash
+   84  # Получаем текущую дату в формате "20.04.23"
+   85  current_date=$(date +%y.%m.%d)
+   86  # Цикл для создания 10 файлов с порядковым номером и текущей датой
+   87  for (( i=1; i<=10; i++ )); do     filename="${i}_${current_date}";     touch "$filename";     echo "Created file: $filename"; done
+   88  chmod +x task_Christina.sh
+   89  crontab -e
+   90  tar -czvf Christina_archive.tar.gz task_Christina.sh
+   91  crontab -e
+   92  ls -al
+   93  histori.txt
+   94  history.txt
+   95  ls -al
+   96  crontab -l
+   97  pwd
+   98  which
+   99   --read-alias and/or --read-functions
+  100   --read-alias
+  101  /or --read-functions
+  102  /path/to/Christina/
+  103  ls /opt/310524-ptm
+  104  cd /opt/150424-wdm/olha_biekhtir
+  105  ls -la
+  106  vi
+  107  vi task_olha_biekhtir.sh
+  108  chmod +x task_olha_biekhtir.sh
+  109  ls -la
+  110  ./task_olha_biekhtir.sh
+  111  vi task_olha_biekhtir.sh
+  112  ./task_olha_biekhtir.sh
+  113  ls -la
+  114  ./task_olha_biekhtir.sh
+  115  vi task_olha_biekhtir.sh
+  116  ./task_olha_biekhtir.sh
+  117  ls -al
+  118  crontab -e
+  119  ./task_olha_biekhtir.sh
+  120  cat
+  121  ls -la
+  122  history history
+  123  history
+  124  history | tail -n 50 > history.txt
+  125  ls
+  126  cat history.txt
+  127  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+  128  crontab -e
+  129  ls
+  130  cd /opt/150424-wdm
+  131  ls
+  132  ls -la
+  133  cd /maryna_sychova
+  134  cd ./maryna_sychova
+  135  touch task_MARYNA.sh
+  136  vi task_MARYNA.sh
+  137  crontab -e
+  138  chmod +x task_MARYNA.sh
+  139  vi task_MARYNA.sh
+  140  ./task_MARYNA.sh
+  141  vi task_MARYNA.sh
+  142  ./task_MARYNA.sh
+  143  #history | tail -n 20 > history.txt
+  144  vi task_MARYNA.sh
+  145  crontab -e
+  146  pwd
+  147  vi task_MARYNA.sh
+  148  ls la
+  149  cd /opt/150424-wdm/
+  150  ls-la
+  151  ls
+  152  cd maryna_sychova/
+  153  ls
+  154  ./tas
+  155  ./task_MARYNA.sh
+  156  vi task_MARYNA.sh
+  157  ./task_MARYNA.sh
+  158  cat task
+  159  cat task_MARYNA.sh
+  160  ls -am
+  161  vi task_MARYNA.sh
+  162  ./task_MARYNA.sh
+  163  lp -am
+  164  ls -am
+  165  vi task_MARYNA.sh
+  166  ./task_MARYNA.sh
+  167  ls -am
+  168  ls -al
+  169  crontab -e
+  170  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+  171  history > history.txt
+  172  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+  173  ls
+  174  crontab -e
+  175  ssh root@localhost
+  176  pwd
+  177  /opt/150424-wdm/maryna_sychova
+  178  mkdir -p /opt/310524-ptm/Graur-Inna
+  179  mkdir -p /opt/310524-ptm/Margarita-Wenzel
+  180  ls /opt/310524-ptm
+  181  cd /opt/150424-wdm/ozhurba/
+  182  ll
+  183  vim sleeper.sh
+  184  vim /var/spool/mail/ec2-user
+  185  crontab -l
+  186  crontab -e
+  187  crontab -l
+  188  clear
+  189  ll
+  190  vim task_ozhurba.sh
+  191  vim sleeper.sh
+  192  cat /etc/os-release | grep -E "name="
+  193  cat /etc/os-release | grep -E "name"
+  194  cat /etc/os-release | grep -E "NAME="
+  195  cat /etc/os-release | grep -E "NAME=.*"
+  196  man grep
+  197  cat /etc/os-release | grep -e "NAME=.*"
+  198  man grep
+  199  cat /etc/os-release | grep -eo "NAME=.*"
+  200  cat /etc/os-release | grep -o "NAME=.*"
+  201  cat /etc/os-release | grep -Eo "NAME=.*"
+  202  cat /etc/os-release | grep -Eo "NAME=.*" | head -1
+  203  vim sleeper.sh
+  204  cat /etc/os-release | grep NAME
+  205  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME
+  206  vim sleeper.sh
+  207  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME | awk '{print 2}'
+  208  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME | awk '{print $2}'
+  209  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME | awk -f = '{print $2}'
+  210  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME | awk -f '=' '{print $2}'
+  211  cat /etc/os-release | grep NAME | grep -v PRETTY | grep -v CPE_NAME | awk -F'=' '{print $2}'
+  212  vim sleeper.sh
+  213   cd /opt
+  214  cd /opt/
+  215  ls -l
+  216  cd 150424-wdm/
+  217  ls -l
+  218  mkdir olga_beliaeva
+  219  mkdir /olga_beliaeva
+  220  mkdir -p /olga_beliaeva
+  221  mkdir -p/opt/150424-wdm/olga_beliaeva
+  222  mkdir -p /opt/150424-wdm/olga_beliaeva
+  223  cd /olga_beliaeva
+  224  cat /opt/150424-wdm/olga_beliaeva
+  225  cd /opt/150424-wdm/olga_beliaeva
+  226  exit
+  227  cd /opt
+  228  cd/150424-wdm
+  229  cd /opt/150424-wdm
+  230  ls -l
+  231  ls exit
+  232  exit
+  233  mkdir -p /tmp/150424-wdm/lotos
+  234  exit
+  235  cat /tmp/150424
+  236  pwd
+  237  cd /tmp/150424
+  238  cat /tmp/150424-wdm
+  239  ls -la
+  240  exit
+  241  cd /150424-wdm
+  242  cd /tmp/150424-wdm
+  243  ls -l
+  244  cat /tmp/150424-wdm
+  245  ls -l
+  246  cd /tmp/150424-wdm/olga_beliaeva
+  247  cat /tmp/150424-wdm/olga_beliaeva
+  248  exit
+  249  cd /opt
+  250  ls -l
+  251  cd /152404-wdm
+  252  cd /tmp/150424-wdm
+  253  cl -l
+  254  ls -l
+  255  cat /opt/150424-wdm
+  256  ls -l
+  257  cd /opt/150424-wdm
+  258  ls -la
+  259  cd /opt/310524-ptm/
+  260  ls -al
+  261  ls -al 310524-ptm/ | tail -n +4 | wc -l
+  262  cd /opt/310624-ptm
+  263  cd /opt/310524-ptm
+  264  cat history.txt
+  265  ls -al
+  266  cd
+  267  ls -al
+  268  cat history.text
+  269  clear
+  270  cd
+  271  clear
+  272  exit
+  273  ls -al
+  274  ls -al /opt/
+  275  ls -al /opt/310524-ptm
+  276  exit
+  277  env
+  278  exit
+  279  ls -al /opt/
+  280  ls -al /opt/310624-ptm/
+  281  ls -al /opt/310524-ptm
+  282  ls -al /opt/
+  283  pwd
+  284  cd /opt/150424-wdm/ Zhelezniak Alexandr
+  285  ls -la
+  286  cd /opt/150424-wdm/ Zhelezniak Alexandr
+  287  ls
+  288  cd /opt/150424-wdm/ Zhelezniak Alexandr
+  289  cd /opt/150424-wdm/Zhelezniak Alexandr
+  290  cd /opt/150424-wdm/Alex_Zhelezniak
+  291  ls
+  292  vi task_Alexandr_Zhelezniak.sh
+  293  ./task_Alexandr_Zhelezniak.sh
+  294  ls -la
+  295  vi task_Alexandr_Zhelezniak.sh
+  296  ./task_Alexandr_Zhelezniak.sh
+  297  ls task_Alexandr_Zhelezniak.sh
+  298  ls
+  299  vi task_Alexandr_Zhelezniak.sh
+  300  ls
+  301  cd /opt
+  302  ls
+  303  cd 310524
+  304  ls
+  305  cd ..
+  306  ls
+  307  cd 310524-ptm/
+  308  ls
+  309  ls -alh
+  310  wc
+  311  wc -h
+  312  wc --help
+  313  cd /opt/150424-wdm/
+  314  ls
+  315  cd ./maryna_sychova/
+  316  ls
+  317  cat task_MARYNA.sh
+  318  mc
+  319  ls -la /opt/310524-ptm/
+  320  echo date
+  321  date
+  322  echo PATH
+  323  echo $PATH
+  324  env
+  325  echo $PATH
+  326  echo $PATH | grep TERM
+  327  echo $PATH | grep "TERM"
+  328  env | grep "TERM"
+  329  env | grep "PS1"
+  330  env | grep "TZ"
+  331  env | grep "PWD"
+  332  env | grep "SHLVL"
+  333  echo $USER
+  334  cd /opt
+  335  ls -al
+  336  rm -rf 310524
+  337  rm -rf 310524_ptm/
+  338  ls -al
+  339  ls -al 310524-ptm/
+  340  ls -al 310524-ptm/ | tail -n +3
+  341  ls -al 310524-ptm/ | tail -n +4
+  342  ls -al 310524-ptm/ | tail -n +4 | wc -l
+  343  date
+  344  echo $PATH
+  345  env
+  346  bash
+  347  echo $USER
+  348  history
+  349  cat /opt/150424-wdm/marina_elizarova/hw-13/task_marina.sh
+  350  crontab --help
+  351  crontab -l
+  352  crontab -e
+  353  crontab -l
+  354  cd /opt/150424-wdm/marina_elizarova/hw-13/
+  355  ls -al
+  356  tar -cf arhive.tar 1_25.06.24 2_25.06.24 3_25.06.24 4_25.06.24 5_25.06.24 6_25.06.24 7_25.06.24 8_25.06.24 9_25.06.24 10_25.06.24
+  357  tar -tf arhive.tar
+  358  history > history.txt
+  359  cat history.txt
+  360  vi history.txt
+  361  cd /opt/310524-ptm
+  362  ls -al
+  363  sudo mkdir -p /opt/310524-ptm/OKSANA
+  364  sudo mkdir -p /opt/310524_ptm/OKSANA
+  365  ls -l /opt/310524_ptm
+  366  ls -l /opt
+  367  pwd
+  368  mkdir -p /home/ec2-user/310524_ptm/Nelja_dorves/
+  369  date
+  370  ls -al /
+  371  ls -al /home/ec2-user/310524_ptm/Nelja_dorves/
+  372  ls -al 310524_ptm | tail -n + 4
+  373  echo /home/
+  374  echo /310524_ptm/
+  375  unset var
+  376  echo SPATH
+  377  env
+  378  ls -al
+  379  /
+  380  ls -al
+  381  ls -al/opt
+  382  /opt/31310524_ptm
+  383  /opt/310524_ptm
+  384  ls -al /opt/310524/
+  385  opt
+  386   ls -al/opt/310524-ptm/OAndrei
+  387   ls -al /opt/310524-ptm/OAndrei
+  388   ls -al /opt/310524-ptm/OAndrei/
+  389  cat/
+  390  cat /opt/opt/310524-ptm/
+  391  cat /opt/310524-ptm/
+  392  ls -al /opt/310524-ptm/
+  393  ls -al /opt/310524-ptm/OAndrei
+  394  ls -al /opt/310524-ptm/OAndrei/
+  395  sudo su
+  396  sudo su mc
+  397  sudo mc
+  398  htop
+  399  sudo su
+  400  echo -e "\[32mHello\e[0m"
+  401  echo -e "\e[32mHello\e[0m"
+  402  echo -e "\e[42mHello\e[0m"
+  403  echo -e "\e[22mHello\e[0m"
+  404  mc
+  405  perl -v
+  406  python --version
+  407  man wc
+  408  ls -la /opt/310524-ptm/ | wc -l -3
+  409  ls -la /opt/310524-ptm/ | wc -l3
+  410  ls -la /opt/310524-ptm/ | wc -l 3
+  411  ls -la /opt/310524-ptm/ | wc -l
+  412  perl -e 'print "$_ => $ENV{$_}" map keys %ENV'
+  413  perl -e 'print "$_ => $ENV{$_}" foreach keys %ENV'
+  414  perl -e 'print "$_ => $ENV{$_}\n" foreach keys %ENV'
+  415  perl -e 'print "$_ => $ENV{$_}\n" foreach sort keys %ENV'
+  416  env
+  417  env | wc
+  418  perl -e 'print "$_ => $ENV{$_}\n" foreach sort keys %ENV' | wc
+  419  perl -e 'print "$_ => $ENV{$_}\n" foreach sort keys %ENV'
+  420  cd
+  421  ls -l
+  422  ls -l opt
+  423  ls -l /opt/
+  424  cd /opt/150424-wdm
+  425  mkdir Anna_Gavrylova
+  426  cd Anna_Gavrylova
+  427  touch task_Anna.sh
+  428  cat
+  429  ls -l
+  430  chmod -x task_Anna.sh
+  431  ls -l
+  432  nano task_Anna.sh
+  433  chmod +x task_Anna.sh
+  434  ls -l
+  435  crontab -e
+  436  ls -al
+  437  ls -al 310524-ptm/
+  438  ls -al/opt/310524-ptm/
+  439  ls -al /opt
+  440  ls -al /310524-ptm
+  441  ls -al /310524-ptm/
+  442  ls -al /310524_ptm/
+  443  history
+  444  ps
+  445  ps -if
+  446  ps -ef
+  447  ps -ef | grep 'ssh'
+  448  info
+  449  uname -o
+  450  uname -n
+  451  clear
+  452  exit
+  453  cd
+  454  clear
+  455  cd /opt/
+  456  clear
+  457  exit
+  458  df -h
+  459  free
+  460  free -h
+  461  unname -a
+  462  uname -a
+  463  quit
+  464  exit
+  465  ps -fd
+  466  cd /opt/150424-wdm/Alex_Zhelezniak/
+  467  ls -l
+  468  vim task_Alexandr_Zhelezniak.sh
+  469  crontab -e
+  470  ls -l
+  471  crontab -e
+  472  tar -czf archiv.tar.gz *.*
+  473  ls -la
+  474  history
+  475  who
+  476  cd /opt/150424-wdm/marina_elizarova/hw-13/
+  477  ls -al
+  478  vi history.txt
+  479  rm history.txt
+  480  history > history.txt
+  481  vi history.txt
+  482  cat history.txt
+  483  tar -rf arhive.tar history.txt
+  484  tar -tf arhive.tar
+  485  cat /opt/150424-wdm/marina_elizarova/hw-13/task_marina.sh
+  486  cd /opt/150424-wdm/marina_elizarova/hw-13/
+  487  vi task_marina.sh
+  488  ls -al/opt/310524-ptm/
+  489  ls -al/opt/310524-ptm/OAndrei
+  490  ls -al /opt/310524-ptm/OAndrei
+  491  cd /opt/310524-ptm/OAndrei
+  492  mkdir /DZ
+  493  mkdir DZ
+  494  ls -al
+  495  ps -ef
+  496  ps
+  497  ps -ef
+  498  kill 15831
+  499  ps -ef
+  500  ps --help
+  501  man ps
+  502  ps -aux
+  503  top
+  504  df -h
+  505  free -h
+  506  top
+  507  free -h
+  508  cat /etc/os-release
+  509  uname
+  510  uname -a
+  511  cat /proc/cpuinfo
+  512  lshw
+  513  sudo lshw
+  514  free -m
+  515  free -h
+  516  sudo lshw
+  517  ps -ef
+  518  ps -ef | grep ssh
+  519  kill 158883
+  520  kill 15883
+  521  kill 15909
+  522  top
+  523  df -h
+  524  free -h
+  525  cat /user/
+  526  cat /home/user/
+  527  uname -a
+  528  cat /Nelja_Dorves
+  529  cat -h /
+  530  cat -h /home/
+  531  ps -aux |grep sshd
+  532  ps -aux |grep sshd | grep ec2-user
+  533  ps -aux | grep ec2-user
+  534  ps -aux | grep ec2-user | grep sshd
+  535  ps -aux | grep ec2-user | grep sshd | wc -l
+  536  ps -aux |  grep sshd | wc -l
+  537  ps -aux |  grep sshd | grdep -v grep
+  538  ps -aux |  grep sshd | grep -v grep
+  539  ps -aux |  grep sshd | grep -v grep |wc -l
+  540  ps -aux |  grep sshd | grep -v grep | grep -v root
+  541  w
+  542  ls -al
+  543  cd
+  544  ls -al
+  545  exit\
+  546  exit
+  547  cd /opt/150424-wdm/Anna-Gavrylova
+  548  ls -la opt
+  549  cat 150424-wdm
+  550  ls -l 150424-wdm
+  551  cd 150424-wdm
+  552  cd /opt/150424-wdm/Anna_Gavrylova
+  553  cat
+  554  nano task_Anna.sh
+  555  crontab -e
+  556  touch task_Anna.sh
+  557  nano task_Anna.sh
+  558  crontab -e
+  559  */15**** ~/Anna_Gavrylova/task_Anna.sh
+  560  crontab -e
+  561  */15 * * * * ~/Anna_Gavrylova/task_Anna.sh
+  562  crontab -e
+  563  ls
+  564  cat task_Anna.sh
+  565  cd /opt/150424-wdm/marina_elizarova/hw-13/
+  566  ls -al
+  567  tar -t arhive.tar
+  568  tar -tf arhive.tar
+  569  crontab -e
+  570  ps -ef | grep ssh
+  571  opt/310524-ptm/OAndrei
+  572  cd opt/310524-ptm/OAndrei
+  573  cd /opt/310524-ptm/OAndrei
+  574  cd 310524-ptm/OAndrei
+  575  la -al
+  576  ls -al
+  577  top
+  578  h
+  579  df -js
+  580  df -h
+  581  free -h
+  582  uname
+  583  uname -a
+  584  cat /proc/cpuinfo
+  585  sudo lshw
+  586  ls -l /opt/310524-ptm
+  587  history
+  588  history | grep 'Andrii_Butov'
+  589  history | grep 'mkdir'
+  590  history | grep 'Andrii_Butov'
+  591  ps -ef | grep ssh
+  592  ps -aux | grep ec2-user | grep ssh
+  593  ps -aux | grep sshd | grep -v grep
+  594  w
+  595  viktoriialarionova
+  596  ps -ef
+  597  ps -ef | grep ssh
+  598  kill 15883
+  599  kill 15909
+  600  ps -aux |grep sshd
+  601  ps -aux | grep sshd | grep -v grep
+  602  ls -al
+  603  cd /opt/150424-wdm
+  604  ls
+  605  cd Anna_Gavrylova
+  606  ls
+  607  ./task_Anna.sh
+  608  ls
+  609  rm $  {i}_26.06.24
+  610  ls
+  611  crontab -e
+  612  exit
+  613  cd /opt/150424-wdm/Anna_Gavrylova
+  614  ls
+  615  cd task_Anna.sh
+  616  cat task_Anna.sh
+  617  crontab -e
+  618  ./task_Anna.sh
+  619  ls
+  620  crontab -e
+  621  ls
+  622  nano task_Anna.sh
+  623  is
+  624  ls
+  625  chmod +x task_Anna.sh
+  626  ls
+  627  cat task_Anna.sh
+  628  ls
+  629  crontab -e
+  630  ls
+  631  ps aux
+  632  man ps
+  633  ps axfj
+  634  man top
+  635  top
+  636  ps axfj
+  637  free -m
+  638  df -h
+  639  ps
+  640  ps -ef
+  641  ps -ef | grep ssh
+  642  ps -ef | grep sshd
+  643  ps -ef | grep sshd:
+  644  ps -ef | grep sshd:
+  645  ps -ef | grep sshd: | grep -v '--color'
+  646  ps -ef | grep sshd: | grep -w '--color'
+  647  ps -ef | grep sshd: | grep -w --color
+  648  ps -ef | grep sshd: | tail -1
+  649  ps -ef | grep sshd: | grep -v grep
+  650  ps -ef | grep sshd: | grep -v grep | grep -v root
+  651  ps -ef | grep sshd: | grep -v grep | grep -v root | wc -l
+  652  ps -ef | grep sshd: | grep -v grep | grep -v root
+  653  w
+  654  export VOLODYMYR_VARIABLE=310524-ptm
+  655  echo VOLODYMYR_VARIABLE=310524-ptm
+  656  crontab -e
+  657  pwd
+  658  ssh -i /Users/sashajeleznjak/Desktop/ssh/id_rsa ec2-user@linux.itcareerhub.de
+  659  pwd
+  660  cd /opt/150424-wdm/ Zhelezniak Alexandr
+  661  ls
+  662  cd /opt/150424-wdm/Alex_Zhelezniak
+  663  ls
+  664  ls -la
+  665  cat task_Alexandr_Zhelezniak.sh
+  666  history | tail -n 30 > history.txt
+  667  tar -czvf archive.tar.gz *_$(date +"%d.%m.%y") history.txt
+  668  scp -i /Users/sashajeleznjak/Desktop/ssh/id_rsa  ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Alex_Zhelezniak/archive.tar.gz //Users/sashajeleznjak/Desktop
+  669  scp -i /Users/sashajeleznjak/Desktop/ssh/id_rsa  ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Alex_Zhelezniak/archive.tar.gz //Users/sashajeleznjak/Desktop/
+  670  scp -i /Users/sashajeleznjak/Desktop/ssh/id_rsa  ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Alex_Zhelezniak/archive.tar.gz /Users/sashajeleznjak/Desktop
+  671  scp -i /Users/sashajeleznjak/Desktop/ssh/id_rsa  ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Alex_Zhelezniak/archive.tar.gz /Users/sashajeleznjak/Desktop/
+  672  cd /opt/150424-wdm/Alex_Zhelezniak
+  673  ls -am
+  674  ls -la
+  675  cat task_Alexandr_Zhelezniak.sh
+  676  pwd
+  677  cd /opt/150424-wdm
+  678  pwd
+  679  ls
+  680  ls -la
+  681  clear
+  682  pwd
+  683  cd /opt/150424-wdm/mihaela_talmazan/
+  684  pwd
+  685  ls
+  686  clear
+  687  cd /opt/150424-wdm/
+  688  ls
+  689  cd mihaela_talmazan/
+  690  pwd
+  691  ls
+  692  touch task_mihaela.sh
+  693  ls
+  694  cd task_mihaela.sh
+  695  cd task_mihaela.sh/
+  696  ls
+  697  vim task_mihaela.sh
+  698  crontab -e
+  699  tar -czf archiv.tar.gz *.*
+  700  ls -la
+  701  history
+  702  history > history.txt
+  703  ls -l
+  704  cd /opt/150424-wdm/Anna_Gavrylova
+  705  cat Anna_Gavrylova
+  706  ls Anna_Gavrylova
+  707  cat /opt/150424-wdm/Anna_Gavrylova
+  708  ls /opt/150424-wdm/Anna_Gavrylova
+  709  history | tail -n 20 > history.txt
+  710  tar -czvf anna.tar.gz *_$(data +"%d.%m.%y") history.txt
+  711  cat histiry.txt
+  712  ls history.txt
+  713  ls
+  714  cat history.txt
+  715  crontab -e
+  716  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Anna_Gavrylova/anna.tar.gz C:/Users/ICH/Desktop/LinuxHW
+  717  spc -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Anna_Gavrylova/anna.tar.gz /C:/Users/ICH/Desktop/LinuxHW
+  718  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Anna_Gavrylova/anna.tar.gz /C:/Users/ICH/Desktop/LinuxHW
+  719  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Anna_Gavrylova/anna.tar.gz C:/Users/ICH/Desktop/LinuxHW
+  720  history
+  721  history >> /tmp/file.txt
+  722  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/150424-wdm/Anna_Gavrylova/anna.tar.gz C:/Users/ICH/Desktop/LinuxHW
+  723  env | VOLODYMY
+  724  env | grep VOLODYMY
+  725  env
+  726  export VOLODYMYR_VARIABLE=310524-ptm
+  727  echo VOLODYMYR_VARIABLE
+  728  touch /opt/310524-ptm/.process_management
+  729  mc
+  730  touch /opt/310524-ptm/Volodymyr/.process_management
+  731  date >> /opt/310524-ptm/Volodymyr/.process_management
+  732  echo "Welcome to Amazon server" >> /opt/310524-ptm/Volodymyr/.process_management
+  733  free -h
+  734  free -h | grep Mem:
+  735  free -h | grep Mem: >> /opt/310524-ptm/Volodymyr/.process_management
+  736  ps
+  737  ps -aux
+  738  ps -aux | grep root
+  739  ps -aux | grep root | grep -v grep
+  740  ps -aux | grep -v grep
+  741  ps -aux | grep -v grep | grep root
+  742  ps -aux | grep -v grep | grep root | wc -l
+  743  ps -aux | grep -v grep | grep root | wc -l >> /opt/310524-ptm/Volodymyr/.process_management
+  744  env | grep VOLODYMYR_VARIABLE
+  745  env | grep VOLODYMYR_VARIABLE >> /opt/310524-ptm/Volodymyr/.process_management
+  746  ps -aux | grep /usr/snib/sshd -D
+  747  ps -aux | grep "/usr/snib/sshd -D"
+  748  ps -aux
+  749  ps -ef
+  750  ps -ef | grep "/usr/sbin/sshd -D"
+  751  ps -ef | grep -v grep | |grep "/usr/sbin/sshd -D"
+  752  ps -ef | grep -v grep | grep "/usr/sbin/sshd -D"
+  753  ps -ef | grep -v grep | grep "/usr/sbin/sshd -D" | awl '{print $2 $3}'
+  754  ps -ef | grep -v grep | grep "/usr/sbin/sshd -D" | awk '{print $2 $3}'
+  755  ps -ef | grep -v grep | grep "/usr/sbin/sshd -D" | awk '{print $2, $3}'
+  756  ps -ef | grep -v grep | grep "/usr/sbin/sshd -D" | awk '{print $2, $3}' >> /opt/310524-ptm/Volodymyr/.process_management
+  757  cat /opt/310524-ptm/Volodymyr/.process_management
+  758  history
+  759  history | tail -50 > /opt/310524-ptm/Volodymyr/20240626_history.txt
+  760  mc
+  761  exit
+  762  export RUBILA341_VARIABLE="310524-ptm"
+  763  touch /opt/310524-ptm/rubila341/.process_management
+  764  date >> /opt/310524-ptm/rubila341/.process_management
+  765  echo "Welcome to Amazon server" >> /opt/310524-ptm/rubila341/.process_management
+  766  free -h | grep Mem |awk' {print "Total Memory: "$2) >> /opt/310524-ptm/rubila341/.process_management
+  767  ps - U root --no-headers | wc-| awk'{print " Root Processes:"$1} >> /opt/310524-ptm/rubila341/.process_management
+  768  ps -U root --no-headers | wc -l | awk '{print "Root Processes: "$1}' >> /opt/310524-ptm/rubila341/.process_management
+  769  printenv |grep RUBILA341_VARIABLE >> /opt/310524-ptm/rubila341/.process_management
+  770  pgrep -af "/usr/sbin/sshd -D"
+  771  pgrep -af "/usr/sbin/sshd -D" | while read -r pid cmd; do ppid=$(ps -o ppid= -p "$pid"); echo "PID $pid PPID $ppid" >> /opt/310524-ptm/rubila341/.process_management; done
+  772  cat /opt/310524-ptm/rubila341/.process_management
+  773  nano /opt/310524-prtm/rubila341/my_script.sh
+  774  ls /opt/220424-ptm
+  775  ls /opt/220424-ptm/Anar
+  776  ls /opt/220424-ptm/Anar/telbot
+  777  nano telbot_Anar.py
+  778  ls /opt/220424-ptm/Anar/telbot
+  779  dir
+  780  ls /opt/220424-ptm/Anar/telbot
+  781  ls /opt/220424-ptm/Anar
+  782  cd telbot
+  783  dir
+  784  ls /telbot
+  785  ls-l
+  786  ls -all
+  787  dir
+  788  cd
+  789  dir
+  790  ls -al
+  791  mv telbot_Anar.py /opt/220424-ptm/Anar
+  792  ls /opt/220424-ptm/Anar
+  793  mv telbot_Anar.py /opt/220424-ptm/Anar/telbot
+  794  ls /telbot
+  795  ls /opt/220424-ptm/Anar/telbot
+  796  dir
+  797  ls /opt/220424-ptm/Anar
+  798  cd telbot
+  799  mv telbot_Anar.py /opt/220424-ptm/Anar/telbot
+  800  mv telbot_Anar.py
+  801  mv telbot_Anar.py /opt/220424-ptm/Anar/telbot
+  802  mv telbot_Anar.py /opt/220424-ptm/Anar
+  803  cd..
+  804  dir
+  805  mv telbot_Anar.py /opt/220424-ptm
+  806  cd /opt/220424-ptm/Anar
+  807  mv telbot_Anar.py /opt/220424-ptm/Anar/telbot/
+  808  cd telbot
+  809  dir
+  810  python3 /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  811  sudo yum install python3-pip
+  812  pip3 install python-telegram-bot
+  813  pip3 install --upgrade pip
+  814  python3 /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  815  pip3 install mysql-connector-python
+  816  pip3 install --upgrade pip
+  817  python3 /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  818  sudo nano /etc/systemd/system/your-bot.service
+  819  sudo systemctl daemon-reload
+  820  sudo systemctl enable your-bot.service
+  821  sudo systemctl start your-bot.service
+  822  sudo systemctl daemon-reload
+  823  sudo systemctl enable your-bot.service
+  824  sudo nano /etc/systemd/system/your-bot.service
+  825  sudo systemctl daemon-reload
+  826  sudo systemctl enable your-bot.service
+  827  sudo systemctl start your-bot.service
+  828  sudo systemctl status your-bot.service
+  829  sudo systemctl start your-bot.service
+  830  sudo systemctl status your-bot.service
+  831  sudo systemctl daemon-reload
+  832  sudo systemctl start your-bot.service
+  833  sudo systemctl status your-bot.service
+  834  exir
+  835  exit
+  836  cd
+  837  dir
+  838  exit
+  839  log out
+  840  exit
+  841  cd /opt/150424-wdm
+  842  ls
+  843  cd Alex_Zhelezniak
+  844  ls
+  845  pwd
+  846  cat archiv.tar.gz
+  847  export OLGA_150424-wdmssh -i ‪C:\Users\Olga\.ssh\id_rsa ec2-user@linux.itcareerhub.de clear
+  848  whoami
+  849  export OLGA_BELIAEVA_VARIABLE="150424-wdm"
+  850  touch /opt/150424-wdm/
+  851  touch /opt/150424-wdm/.process_management
+  852  sudo systemctl daemon-reloa
+  853  pwd /opt/150424-wdm
+  854  cd /opt/150424-wdm
+  855  ls -l
+  856  clear
+  857  export OLGA_BELIAEVA="150424-wdm"
+  858  touch /opt/150424-wdm/.process_management
+  859  date >> /opt/150424-wdm/.process_management
+  860  clear
+  861  export OLGA_BELIAEVA_VARIABLE=150424-wdm
+  862  touch /opt/150424-wdm/olga_beliaeva/.process_management
+  863  date >> /opt/150424-wdm/olga_beliaeva/.process_management
+  864  cd /olga_beliaeva
+  865  cd /opt/150424-wdm/olga_beliaeva
+  866  free -h | grep Mem >> .process_management
+  867  python3 /opt/220424-ptm/Anar/telbot/
+  868  cd /opt/220424-ptm/Anar/telbot/
+  869  nano /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  870  sudo systemctl status your-bot.service
+  871  sudo systemctl daemon-reload
+  872  sudo systemctl start your-bot.service
+  873  sudo systemctl status your-bot.service
+  874  sudo systemctl daemon-reload
+  875  sudo systemctl status your-bot.service
+  876  sudo systemctl enable your-bot.service
+  877  python3 /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  878  sudo systemctl status your-bot.service
+  879  sudo systemctl daemon-reload
+  880  sudo systemctl enable your-bot.service
+  881  sudo systemctl start your-bot.service
+  882  sudo systemctl status your-bot.service
+  883  ps aux | grep python
+  884  pgrep -f bot.py
+  885  pgrep -f telbot_Anar.py
+  886  kill -9 20253
+  887  sudo systemctl status your-bot.service
+  888  nano /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  889  sudo systemctl stop mybot.service
+  890  sudo systemctl stop your_bot.service
+  891  sudo systemctl stop your-bot.service
+  892  sudo systemctl start your-bot.service
+  893  sudo systemctl status yor-bot.service
+  894  sudo systemctl status your-bot.service
+  895  sudo systemctl stop your-bot.service
+  896  sudo systemctl status your-bot.service
+  897  nano /opt/220424-ptm/Anar/telbot/telbot_Anar.py
+  898  sudo systemctl start your-bot.service
+  899  sudo systemctl status your-bot.service
+  900  cd /opt/310524-ptm/
+  901  ls -al
+  902   cd /opt/310524-ptm/
+  903   ls -al
+  904  export ANDREW_VARIABLE="310524_group"
+  905  mkdir /opt/310524_group"/serafima_m
+  906  mkdir /opt/310524_group/serafima_m
+  907  rm -r /opt/310524_group/serafima_m
+  908  ls -ld /opt/310524_group/serafima_m
+  909  exit
+  910  ls -ld /opt/310524_group/serafima_m
+  911  exit
+  912  export ANDREW_VARIABLE=310524_group_serafima_m
+  913  mkdir -p /opt/310524_group_serafima_m/serafima_m
+  914  touch /opt/310524_group_serafima_m/serafima_m/.process_management
+  915  nano /opt/310524_group_serafima_m/serafima_m/.process_management
+  916  cat /opt/310524_group_serafima_m/serafima_m/.process_management
+  917  nano /opt/310524_group_serafima_m/serafima_m/.process_management
+  918  cat /opt/310524_group_serafima_m/serafima_m/.process_management
+  919  nano /opt/310524_group_serafima_m/serafima_m/.process_management
+  920  ls
+  921  ls -la
+  922  mc
+  923  cd /opt/310524_group_serafima_m/serafima_m/
+  924  rm .process_management
+  925  exit
+  926  ls
+  927  cd
+  928  opt
+  929  nano permission_checker.sh
+  930  chmod +x permission_checker.sh
+  931  ./permission_checker.sh
+  932  mkdir Valeriia
+  933  cd Valeriia
+  934  nano task_Valeriia.sh
+  935  chmod +x task_Valeriia.sh
+  936  crontab -e
+  937  ls
+  938  mc
+  939  mkdir /opt/150424-wdm/Valeriia_Levin/Valeriia
+  940  /opt/150424-wdm/Valeriia_Levin/Valeriia
+  941  cd Valeriia
+  942  nano task_Valeriia.sh
+  943  chmod +x task_Valeriia.sh
+  944  crontab -e
+  945  cd /opt/150424-wdm/Valeriia_Levin/Valeriia
+  946  history > command_history.txt
+  947  tar -cvzf Valeriia_files.tar.gz *
+  948  nano sleeper.sh
+  949  chmod +x sleeper.sh
+  950  ./sleeper.sh
+  951  cat /tmp/sleeper.log
+  952  cat /tmp/cpuinfo.txt
+  953  cat /tmp/osname.txt
+  954  cat /tmp/osname_clean.txt
+  955  ls /tmp/*.txt
+  956  cat /tmp/cpuinfo.txt
+  957  exit
+  958  mc
+  959  0;132;50M
+  960  mkdir -p /opt/310524-ptm/slavaGon4ar
+  961  tree /opt/310524-ptm/
+  962  mc
+  963  0;134;50M
+  964  quit
+  965  exit
+  966  echo 'export slavGon4ar_VARIABLE="310524-ptm"' >> ~/.bashrc && source ~/.bashrc
+  967  touch /opt/310524-ptm/slavaGon4ar/.process_management
+  968  date >> /opt/310524-ptm/slavaGon4ar/.process_management
+  969  echo "Welcome to Amazon server" >> /opt/310524-ptm/slavaGon4ar/.process_management
+  970  free -h | grep Mem | awk '{print "Total Memory: " $2}' >> /opt/310524-ptm/slavaGon4ar/.process_management
+  971  ps -U root --no-headers | wc -l | awk '{print "Number of processes by root: " $1}' >> /opt/310524-ptm/slavaGon4ar/.process_management
+  972  printenv | grep SLAVA_VARIABLE >> /opt/310524-ptm/slavaGon4ar/.process_management
+  973  ps -ef | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID: " $2 " PPID: " $3}' >> /opt/310524-ptm/slavaGon4ar/.process_management
+  974  mc
+  975  0;131;50M
+  976  printenv | grep slavaGon4ar_VARIABLE >> /opt/310524-ptm/slavaGon4ar/.process_management
+  977  ps -ef | grep '/usr/sbin/sshd -D' | grep -v grep | awk '{print "PID: " $2 " PPID: " $3}' >> /opt/310524-ptm/slavaGon4ar/.process_management
+  978  mc
+  979  exit
+  980  cat /opt/310524-ptm/slavaGon4ar/.process_management
+  981  exit
+  982  nano sleeper.sh
+  983   ~]$ mkdir /opt/310524_group/serafima_m
+  984  sudo systemctl status your-bot.servic
+  985  sudo systemctl status your-bot.service
+  986  sudo systemctl stop your-bot.service
+  987  sudo systemctl start your-bot.service
+  988  sudo systemctl enable your-bot.service
+  989  sudo systemctl status your-bot.servic
+  990  sudo systemctl status your-bot.service
+  991  sudo systemctl stop your-bot.service
+  992  sudo systemctl start your-bot.service
+  993  sudo systemctl status your-bot.service
+  994  exit
+  995  cd /opt/310524-ptm
+  996  ls -al
+  997  history

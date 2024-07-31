@@ -1,0 +1,81 @@
+    1  cd C:\Users\ICH\Documents\git_bash
+    2  cd \Users\ICH\Documents\git_bash
+    3  cd /Users/ICH/Documents/git_bash
+    4  git congig --global -l
+    5  git config --global user.name Andrii_Butov
+    6  git congig --global -l
+    7  git config --global -l
+    8  pwd
+    9  git config --global user.email kot09542@gmail.com
+   10  git config --global -l
+   11  cd ~
+   12  git config --global -l
+   13  git clone git@github.com:andreyb30283/310524-ptm.git
+   14  git clone git@github.com:andreyb30283/310524-ptm.git
+   15  git clone git@github.com:andreyb30283/My_Rep.git
+   16  cd /My_Rep
+   17  ls -alh
+   18  cd /My_Rep/
+   19  cd ~/My_Rep/
+   20  cd ~
+   21  cd ./My_Rep/
+   22  git add .
+   23  git add file
+   24  git commit -m "sdfsdf"
+   25  cd 
+   26  pwd
+   27  git commit -m "sdfsdf"
+   28  cd My_Rep
+   29  git init
+   30  echo "#test >> README.MD
+   31  git status
+   32  git add README.md 
+   33  git commit -m "first commit"
+   34  git branch -M main
+   35  git remote add origin git@github,com:USERNAME/REPO_NAMW.git
+   36  git push -u origin main
+   37  git log
+   38  #!/bin/bash
+   39  # Запрашиваем у пользователя количество файлов
+   40  echo "Введите количество файлов, которые вы хотите создать:"
+   41  read num_files
+   42  # Генерируем указанное количество файлов
+   43  for (( i=1; i<=num_files; i++ )); do
+   44      filename=$(date +%Y%m%d%H%M%S%N); 
+   45      ext=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 3 | head -n 1); 
+   46      touch "${filename}.${ext}"; 
+   47      random_text=$(cat /dev/urandom | tr -dc 'a-z' | fold -w 100 | head -n 1); 
+   48      echo $random_text > "${filename}.${ext}"; done
+   49  echo "Создание файлов завершено."
+   50  #!/bin/bash
+   51  # Проверяем, передано ли количество файлов как аргумент
+   52  if [ $# -eq 0 ]; then     echo "Ошибка: не указано количество файлов. Используйте $0 <количество_файлов>";     exit 1; fi
+   53  vi 
+   54  ls -alh
+   55  mk HW12
+   56  mkdir HW12
+   57  cd HW12/
+   58  git clone git@github.com:andreyb30283/NewRepoHW12.git
+   59  ls -alh
+   60  cd NewRepoHW12/
+   61  ls -alh
+   62  git checkout -b feature
+   63  ls -alh
+   64  vi README.md 
+   65  vi .gitignore 
+   66  git commit -m "my first comment HW12"
+   67  git push origin feature 
+   68  git status
+   69  git commit -a 
+   70  git status
+   71  git push origin feature 
+   72  git checkout feature 
+   73  git commit --amend -m "amend :  commit"
+   74  git status
+   75  git commit --amend 
+   76  git log
+   77  git status
+   78  git push origin feature 
+   79  git checkout main 
+   80  git merge feature
+   81  history > history.txt
